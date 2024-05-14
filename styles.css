@@ -1,0 +1,86 @@
+/* Reset CSS - Normalize styles across different browsers */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    /* Background image properties */
+    background-image: url(party.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    /* Font family for text */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Heading styles */
+h1 {
+    text-align: center;
+    color: white;
+    margin-bottom: 20px; /* Added margin-bottom for spacing */
+}
+
+/* Form styles */
+form {
+    color: white;
+    margin: 20px auto;
+    width: 300px;
+    padding: 20px;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.5); /* Added background color with transparency */
+}
+
+/* Input and textarea styles */
+form input,
+form textarea {
+    width: calc(100% - 22px); /* Adjusted input width for padding */
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ffe100;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.8); /* Added background color with transparency */
+}
+
+/* Heading styles within list items */
+h2 {
+    color: lightgreen;
+}
+
+/* Paragraph styles */
+p {
+    color: black;
+}
+
+/* List item styles */
+li {
+    width: 300px;
+    margin: 10px auto; /* Centered list items */
+    padding: 20px;
+    background: white;
+    border-radius: 5px;
+}
+
+/* Button styles within list items */
+li button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #8efdba;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Unordered list styles */
+ul {
+    list-style: none;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
